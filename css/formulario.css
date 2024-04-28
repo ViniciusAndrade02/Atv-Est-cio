@@ -1,0 +1,68 @@
+#formulario{
+  padding: 30px 0px;
+}
+
+.work-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-me h1{
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.work-me p{
+  padding-bottom: 2px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.contato-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nform{
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  padding-bottom: 3px;
+  
+}
+
+.Nform label{
+  padding-bottom: 2px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Nform input,.Nform select{
+  padding: 7px 0px;
+  padding-left: 5px;
+}
+
+.contato-form button{
+  margin-top: 10px;
+  padding: 12px 80px;
+  background-color:  #0f4c75;
+  color: #fafafa;
+  border-radius: 10px;
+  border: 0px solid;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contato-form button:hover{
+  background-color:  #2987c5;
+  transition: 0.4s;
+}

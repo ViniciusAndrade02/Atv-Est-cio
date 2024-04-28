@@ -1,0 +1,46 @@
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 10vh;
+  background: linear-gradient(to right, #0F4C75 28.1%, #fafafa 28.1%);
+}
+
+[data-itens] ul{
+  display: flex;
+}
+
+[data-itens] ul li{
+  padding: 0px 10px;
+}
+
+
+.menu img{
+  background-size: cover;
+  height: 50px;
+}
+
+.item-menu{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color:  #2e2e2e;
+  position: relative;
+}
+
+.item-menu::before{
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  height: 5px;
+  width: 0%;
+  background-color: #0F4C75;
+  transition: 0.4s;
+}
+
+.item-menu:hover::before {
+  width: 100%;
+  transition: 0.4s;
+}
+

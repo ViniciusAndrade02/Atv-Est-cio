@@ -1,0 +1,25 @@
+footer{
+  background-color: #1A1A1A;
+  padding: 50px 0px;
+}
+
+footer h1,footer p{
+  color: #fafafa;
+}
+
+footer a img{
+  height: 4rem;
+}
+
+.fotter-redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+
+.fotter-redes a {
+  margin: 0 10px; 
+}

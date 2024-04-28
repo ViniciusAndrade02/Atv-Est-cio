@@ -1,0 +1,73 @@
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+}
+
+.start {
+  background-color: #0f4c75;
+}
+
+.photo-me {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 90vh;
+  background: linear-gradient(to right, #0f4c75 76%, #fafafa 76%);
+}
+
+.photo-me img {
+  height: 70%;
+  border-radius: 20px;
+  width: auto;
+  background-size: cover;
+}
+
+.profission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.about-me h1 {
+  font-size: 52px;
+  max-width: 20ch;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 68px;
+}
+
+.about-me span{
+  position: relative;
+  z-index: 10;
+}
+
+.about-me h1 span::before {
+ 
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; 
+  width: 100%;
+  height: 8px;
+  background-color: #3282B8; 
+  z-index: -1;
+}
+
+.about-me h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 6px;
+}
+
+.about-me p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 58ch;
+  padding-top: 6px;
+  line-height: 1.3;
+}
