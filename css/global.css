@@ -1,27 +1,24 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
-
-.container{
+.container {
   padding: 0px 100px;
 }
 
-img{
+img {
   max-width: 100%;
-
 }
 
 ul {
   padding: 0px;
   list-style: none;
 }
-
 
 a {
   text-decoration: none;
@@ -30,4 +27,26 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.js-scroll-vertical {
+  opacity: 0;
+  transform: translate3d(0, -70px, 0);
+  transition: 0.6s;
+}
+
+.js-scroll-vertical.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-70px, 0, 0);
+  transition: 0.6s;
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }

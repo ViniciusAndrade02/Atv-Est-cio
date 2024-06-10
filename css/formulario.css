@@ -66,3 +66,7 @@
   background-color:  #2987c5;
   transition: 0.4s;
 }
+
+.error-form{
+  color: red;
+}

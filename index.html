@@ -55,12 +55,12 @@
     </div>
   </section>
 
-  <section id="experiencia" class="container">
-    <div class="title-experiencia">
+  <section id="experiencia" class="container ">
+    <div class="title-experiencia ">
       <h1>MINHAS EXPERIÊNCIAS</h1>
     </div>
 
-    <div class="keeps">
+    <div class="keeps js-scroll">
 
       <div class="task">
         <h1>Estágio Front-End</h1>
@@ -75,7 +75,7 @@
 
     </div>
 
-    <div class="prevenir">
+    <div class="prevenir js-scroll">
 
       <div class="prevenir-photo">
         <img src="./img/experiencia/prevenir.png" alt="">
@@ -93,14 +93,14 @@
     </div>
   </section>
 
-  <section id="projeto" class="container">
+  <section id="projeto" class="container js-scroll-vertical">
 
     <div class="title-projeto">
       <h1>Conheça meus Projetos</h1>
       <p>Esses são os meus melhores projetos.Confira,espero que goste!</p>
     </div>
 
-    <div class="projeto">
+    <div class="projeto ">
       <div class="calendario">
         <img src="./img/projeto/calendario.png" alt="">
         <h1>Calendario</h1>
@@ -125,7 +125,7 @@
     </div>
   </section>
 
-  <section id="skills" class="container">
+  <section id="skills" class="container js-scroll">
     <div class="title-skills">
       <h1>Skills</h1>
     </div>
@@ -193,39 +193,42 @@
     </div>
   </section>
 
-  <section id="formulario">
+  <section id="formulario" class="js-scroll-vertical">
 
     <div class="work-me">
       <h1>Vamos trabalhar junto?</h1>
       <p>Entre em contato comigo!!!</p>
     </div>
 
-    <form class="contato-form" action="">
+    <form class="contato-form" >
 
       <div class="Nform">
         <label for="fname">Nome:</label>
-        <input type="text" id="fname" name="fname" required>
+        <input type="text" id="fname" name="fname" >
+        <span class="error-form error-name"></span>
       </div>
 
       <div class="Nform">
         <label for="lname">Email:</label>
-        <input type="email" id="lname" name="lname" required>
+        <input type="email" id="lname" name="lname" >
+        <span class="error-form error-email"></span>
       </div>
 
       <div class="Nform">
         <label for="">Qual sua necessidade?</label>
         <select id="cars" name="O que voce precisa?">
-          <option value="volvo">Site</option>
-          <option value="saab">Plataforma</option>
-          <option value="audi">Funcionário</option>
-          <option value="fiat">Trabalho Acadêmico</option>
+          <option value="Site">Site</option>
+          <option value="Plataforma">Plataforma</option>
+          <option value="Funcionario">Funcionário</option>
+          <option value="Academico">Trabalho Acadêmico</option>
         </select>
 
       </div>
       <div class="Nform">
         <label for="lt">Alguma observação?</label>
-        <textarea required id="lt" name="message" rows="10" cols="30"></textarea>
-        
+        <textarea id="lt" name="message" rows="10" cols="30"></textarea>
+        <span class="error-form error-comentario"></span>
+
       </div>
 
       <button type="submit">Enviar</button>
@@ -245,7 +248,9 @@
 
   </footer>
 
-  <script type="module" src="./index.js"></script>
+  <script src="./js/animation.js"></script>
+  <script src="./js/formulario.js"></script>
+  <script src="./js/menu.js"></script>
 
 </body>
 
