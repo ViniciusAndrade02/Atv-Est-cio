@@ -9,15 +9,16 @@ window.addEventListener("DOMContentLoaded", () => {
     const necessidade = document.getElementById('cars').value;
     const comentario = document.getElementById("lt").value;
 
-    const validacao = (campo, classErro, mensagemErro) => {
+    const validacao = (campo, classErro,Input, mensagemErro) => {
       if (campo === "") {
         document.querySelector(classErro).innerHTML = mensagemErro;
+        document.querySelector(Input).classList.add('inputError')
       }
     };
 
-    validacao(nome, ".error-name", "Digite seu nome");
-    validacao(email, ".error-email", "Digite seu email");
-    validacao(comentario,".error-comentario", "Digite um comentário");
+    validacao(nome, ".error-name",".input-name","Digite seu nome");
+    validacao(email, ".error-email",".input-email","Digite seu email");
+    validacao(comentario,".error-comentario",".input-coment","Digite um comentário");
 
     if (nome != "" && email != "" && comentario != "") {
       const meng = [];

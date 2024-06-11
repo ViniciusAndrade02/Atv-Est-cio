@@ -2,6 +2,21 @@
   padding: 30px 0px;
 }
 
+input,select,textarea {
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:hover,select:hover,textarea:hover{
+  border-color: #0878c3;
+}
+
+input:focus{
+  border: 2px solid #007BFF;
+}
+
+
 .work-me{
   display: flex;
   flex-direction: column;
@@ -68,5 +83,9 @@
 }
 
 .error-form{
-  color: red;
+  color: #ff0000;
+}
+
+.inputError{
+  border-color: #ff0000 !important;
 }

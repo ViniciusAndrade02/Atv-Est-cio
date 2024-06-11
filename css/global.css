@@ -32,7 +32,7 @@ img {
 .js-scroll-vertical {
   opacity: 0;
   transform: translate3d(0, -70px, 0);
-  transition: 0.6s;
+  transition: 1.2s;
 }
 
 .js-scroll-vertical.ativo {
@@ -43,7 +43,7 @@ img {
 .js-scroll {
   opacity: 0;
   transform: translate3d(-70px, 0, 0);
-  transition: 0.6s;
+  transition: 1.2s;
 }
 
 .js-scroll.ativo {
@@ -60,7 +60,7 @@ img {
 
 /* Customiza o trilho da barra de rolagem (o fundo) */
 ::-webkit-scrollbar-track {
-  background: #d9d7d7;
+  background: #f0eeee;
   border-radius: 10px;
 }
 

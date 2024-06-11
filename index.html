@@ -16,7 +16,7 @@
 
 <body>
 
-  <section class="menu container">
+  <section class="menu container js-scroll">
     <div data-itens>
       <ul>
         <li><a href="https://www.linkedin.com/in/vinicius-andrade-1b381a247/"><img src="./img/introduction/linkdin.svg" alt=""></a></li>
@@ -37,7 +37,7 @@
 
   <section id="intro">
 
-    <div class="introduction">
+    <div class="introduction js-scroll">
 
       <div class="start">
         <div class="photo-me">
@@ -57,11 +57,11 @@
   </section>
 
   <section id="experiencia" class="container ">
-    <div class="title-experiencia ">
+    <div class="title-experiencia js-scroll-vertical">
       <h1>MINHAS EXPERIÊNCIAS</h1>
     </div>
 
-    <div class="keeps js-scroll">
+    <div class="keeps js-scroll-vertical">
 
       <div class="task">
         <h1>Estágio Front-End</h1>
@@ -76,7 +76,7 @@
 
     </div>
 
-    <div class="prevenir js-scroll">
+    <div class="prevenir js-scroll-vertical">
 
       <div class="prevenir-photo">
         <img src="./img/experiencia/prevenir.png" alt="">
@@ -94,7 +94,7 @@
     </div>
   </section>
 
-  <section id="projeto" class="container js-scroll-vertical">
+  <section id="projeto" class="container js-scroll">
 
     <div class="title-projeto">
       <h1>Conheça meus Projetos</h1>
@@ -205,13 +205,13 @@
 
       <div class="Nform">
         <label for="fname">Nome:</label>
-        <input type="text" id="fname" name="fname" >
+        <input class="input-name" type="text" id="fname" name="fname" >
         <span class="error-form error-name"></span>
       </div>
 
       <div class="Nform">
         <label for="lname">Email:</label>
-        <input type="email" id="lname" name="lname" >
+        <input class="input-email" type="email" id="lname" name="lname" >
         <span class="error-form error-email"></span>
       </div>
 
@@ -227,7 +227,7 @@
       </div>
       <div class="Nform">
         <label for="lt">Alguma observação?</label>
-        <textarea id="lt" name="message" rows="10" cols="30"></textarea>
+        <textarea class="input-coment" id="lt" name="message" rows="10" cols="30"></textarea>
         <span class="error-form error-comentario"></span>
 
       </div>

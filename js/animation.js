@@ -1,6 +1,6 @@
 function AnimationScroll(){
 
-  let parametro = 0.7
+  let parametro = 0.65
 
   const sections = document.querySelectorAll('.js-scroll')
   const heightRelativa = window.innerHeight * parametro

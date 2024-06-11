@@ -7,7 +7,7 @@
   align-items: center;
   width: 90%;
   height: 10vh;
-  background: linear-gradient(to right, #0f4c75 27.25%, #fafafa 27.25%);
+  background: linear-gradient(to right, #0f4c75 27.32%, #fafafa 27.32%);
   z-index: 10000;
   transition: 0.4s;
 }
