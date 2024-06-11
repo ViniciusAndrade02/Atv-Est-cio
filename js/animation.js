@@ -1,14 +1,9 @@
-//SCROLL ANIMAR
-
-
 function AnimationScroll(){
-  let parametro 
 
-  parametro = 0.7
+  let parametro = 0.7
 
   const sections = document.querySelectorAll('.js-scroll')
   const heightRelativa = window.innerHeight * parametro
-  
   
   function animarscroll(){
     sections.forEach( (item) => {

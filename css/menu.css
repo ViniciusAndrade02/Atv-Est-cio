@@ -9,6 +9,22 @@
   height: 10vh;
   background: linear-gradient(to right, #0f4c75 27.25%, #fafafa 27.25%);
   z-index: 10000;
+  transition: 0.4s;
+}
+
+.menu-scroll {
+
+  background: #0878c3;
+  animation: scroll-animation 0.7s forwards;
+}
+
+@keyframes scroll-animation {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 12vh;
+  }
 }
 
 [data-itens] ul {
@@ -49,26 +65,6 @@
 }
 
 
-
-.menu-scroll {
-  display: flex;
-  position: fixed;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  background: #0878c3;
-  z-index: 10000;
-  animation: scroll-animation 0.4s forwards;
-}
-
-@keyframes scroll-animation {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 12vh;
-  }
-}
 .menu-scroll a{
   color: #fafafa;
   transition: 0.4s;

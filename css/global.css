@@ -50,3 +50,32 @@ img {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
+
+/* Customiza a barra de rolagem completa */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; 
+}
+
+/* Customiza o trilho da barra de rolagem (o fundo) */
+::-webkit-scrollbar-track {
+  background: #d9d7d7;
+  border-radius: 10px;
+}
+
+/* Customiza a parte deslizante da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #41a5e8;
+  border-radius: 10px;
+}
+
+/* Customiza a parte deslizante quando está sendo clicada */
+::-webkit-scrollbar-thumb:active {
+  background: #555;
+}
+
+/* Customiza a parte deslizante quando o mouse está sobre ela */
+::-webkit-scrollbar-thumb:hover {
+  background: #288bcd;
+}
