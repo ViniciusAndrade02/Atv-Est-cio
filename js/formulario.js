@@ -1,3 +1,5 @@
+const meng = [];
+
 window.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("formulario");
 
@@ -26,7 +28,6 @@ window.addEventListener("DOMContentLoaded", () => {
     );
 
     if (nome != "" && email != "" && comentario != "") {
-      const meng = [];
       const toSend = {
         nome: nome,
         email: email,
